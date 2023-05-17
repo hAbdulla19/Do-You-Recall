@@ -1,0 +1,134 @@
+body {
+  background-color: violet;
+  -webkit-animation: random 30s infinite;
+  animation: random 25s infinite;
+  /* margin-left: 2%; */
+}
+
+h1 {
+  text-align: center;
+  padding: 95px;
+}
+
+@keyframes random {
+  15% {
+    background-color: #b9bc6d;
+  }
+
+  30% {
+    background-color: #f3d179;
+  }
+
+  45% {
+    background-color: #ffcab0;
+  }
+
+  60% {
+    background-color: #7c73e6;
+  }
+
+  75% {
+    background-color: #dce8ba;
+  }
+}
+
+@keyframes mymove {
+  form {
+    background-color: #38dc58;
+  }
+
+  to {
+    background-color: #9b40f1;
+  }
+}
+
+.card {
+  width: 165px;
+  height: 150px;
+  background-image: url("https://em-content.zobj.net/thumbs/240/apple/354/thinking-face_1f914.png");
+  display: inline-block;
+  margin: 5px; /* 10px */
+  cursor: pointer;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card img {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+  /* transition: transform 0.8s; */
+}
+
+.container {
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+#title {
+  font-size: 10rem;
+  perspective: 950px;
+  text-align: absolute;
+}
+
+#title > p {
+  font-family: copperplate;
+  font-weight: 600;
+  transform: rotateX(45deg);
+  line-height: 0.75;
+  color: #610079;
+  font-size: 150px;
+  padding: 110px;
+  text-align: center;
+  position:relative;
+  right:10px;
+}
+
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  scale: 2;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#start {
+  height: 90vh;
+  color: #ce29f7;
+  position: relative;
+}
+
+p {
+  font-size: 15px;
+}
+
+#best_score {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#best_score p {
+    font-family: 'Are You Kitten Me', sans-serif;
+    font-size: 40px;
+}
+
+#clicks, h1 {
+    font-family: 'Are You Kitten Me', sans-serif;
+}
+
+#clicks span {
+    font-family: 'Are You Kitten Me', sans-serif;
+}
+
+#div_clicks {
+    position: absolute;
+    left: 10px
+}
