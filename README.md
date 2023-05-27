@@ -7,7 +7,7 @@
   <p align="center">
     A card game that tests a users memory skills and challenges them to match up identical cards. A very fun game that was developed using HTML/CSS/JavaScript.
     <br />
-    <a href="https://what-to-do.hasanabdulla.repl.co/"><strong>HOME PAGE</strong></a>
+    <a href="https://do-you-recall.hasanabdulla.repl.co/"><strong>HOME PAGE</strong></a>
   </p>
 </div>
 
