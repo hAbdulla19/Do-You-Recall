@@ -37,4 +37,4 @@
 
 Your Name - [Hasan Abdulla](https://www.linkedin.com/in/hasan-abdulla1903/) - ishabdulla26@gmail.com
 
-Project Link: [https://github.com/hAbdulla19/TO-DO-APP](https://github.com/hAbdulla19/TO-DO-APP)
+Project Link: [https://github.com/hAbdulla19/Do-You-Recall](https://github.com/hAbdulla19/Do-You-Recall)
